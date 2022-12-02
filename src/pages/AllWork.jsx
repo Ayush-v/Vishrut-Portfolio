@@ -16,7 +16,7 @@ import Image15 from "../assets/food/food15.jpg";
 import Image16 from "../assets/food/food16.jpg";
 import Image17 from "../assets/food/food17.jpg";
 import Image18 from "../assets/food/food18.jpg";
-import Image19 from "../assets/food/food19.jpg";
+// import Image19 from "../assets/food/food19.jpg";
 import Image20 from "../assets/food/food20.jpg";
 import Image21 from "../assets/food/food21.jpg";
 
@@ -111,11 +111,11 @@ const files = [
     size: "3.9 MB",
     source: Image18,
   },
-  {
-    title: "IMG_4985.HEIC",
-    size: "3.9 MB",
-    source: Image19,
-  },
+  // {
+  //   title: "IMG_4985.HEIC",
+  //   size: "3.9 MB",
+  //   source: Image19,
+  // },
   {
     title: "IMG_4985.HEIC",
     size: "3.9 MB",
