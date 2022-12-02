@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import HeroImage from "../../assets/heroimage.JPG";
+import { Link as LinkS } from "react-scroll";
 
 export default function HeroSection() {
   return (
@@ -9,24 +9,32 @@ export default function HeroSection() {
           <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
               <span className="block xl:inline">Hi,</span>{" "}
-              <span className="block text-primary xl:inline">I'm Vishrut</span>
+              <span className="block text-primary xl:inline">
+                I'm Vishrut Vashisht
+              </span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
               Culinary management student.
             </p>
             <div className="mt-8 flex gap-x-4">
-              <Link
-                to="#Work"
-                className="inline-block rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-primabg-primary hover:bg-primary/75 hover:ring-primary/hover:bg-primary/75"
+              <LinkS
+                to="Work"
+                smooth={true}
+                spy={true}
+                duration={1000}
+                className="inline-block rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-primabg-primary hover:bg-primary/75 hover:ring-primary/hover:bg-primary/90 cursor-pointer"
               >
                 My Work
-              </Link>
-              <a
-                href="/"
-                className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
+              </LinkS>
+              <LinkS
+                to="contact"
+                smooth={true}
+                spy={true}
+                duration={1000}
+                className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20 cursor-pointer"
               >
                 Contact Me
-              </a>
+              </LinkS>
             </div>
           </div>
         </div>
