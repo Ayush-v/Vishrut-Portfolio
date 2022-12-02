@@ -78,15 +78,23 @@ export default function About() {
                 Dictum urna sed consectetur neque tristique pellentesque.
                 Blandit amet, sed aenean erat arcu morbi.
               </p>
+              <span className="text-primary">Work Experience</span>
+              <p className="underline font-semibold text-sm">
+                RED LOBSTER VOULENTEER EXPERIENCE AT THE BISTRO 67 KINGS CORNER
+              </p>
               <p className="text-primary mt-5">my recent achivement</p>
               <img src={Certificate} alt="" />
             </div>
             <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
-              <p>
+              {/* <p>
                 Sollicitudin tristique eros erat odio sed vitae, consequat
                 turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros
                 eu viverra donec ut volutpat donec laoreet quam urna.
-              </p>
+              </p> */}
+              {/* <span className="text-primary">Work Experience</span>
+              <p className="underline font-semibold text-sm">
+                RED LOBSTER VOULENTEER EXPERIENCE AT THE BISTRO 67 KINGS CORNER
+              </p> */}
 
               {/* <p>
                 Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique
