@@ -1,14 +1,15 @@
 import { CameraIcon } from "@heroicons/react/24/solid";
 import AboutImage from "../../assets/about.JPG";
+import Certificate from "../../assets/certificate.jpg";
 
 export default function About() {
   return (
     <div className="bg-white overflow-hidden">
       <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
-        <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
+        <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none sm:my-auto">
           <div>
-            <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
+            <h2 className="text-base text-primary font-semibold tracking-wide uppercase">
               little
             </h2>
             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -57,12 +58,7 @@ export default function About() {
                   <img
                     className="rounded-lg shadow-lg object-cover object-center"
                     src={AboutImage}
-                    // src="https://images.unsplash.com/photo-1546913199-55e06682967e?ixlib=rb-1.2.1&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80"
-                    alt="Whitney leaning against a railing on a downtown street"
-                    width={1184}
-                    height={1376}
-                    // width={1184}
-                    // height={1376}
+                    alt=""
                   />
                 </div>
                 <figcaption className="mt-3 flex text-sm text-gray-500">
@@ -70,7 +66,7 @@ export default function About() {
                     className="flex-none w-5 h-5 text-gray-400"
                     aria-hidden="true"
                   />
-                  <span className="ml-2">Photograph by Marcus O’Leary</span>
+                  <span className="ml-2">Durham college Whitby campus</span>
                 </figcaption>
               </figure>
             </div>
@@ -82,6 +78,8 @@ export default function About() {
                 Dictum urna sed consectetur neque tristique pellentesque.
                 Blandit amet, sed aenean erat arcu morbi.
               </p>
+              <p className="text-primary mt-5">my recent achivement</p>
+              <img src={Certificate} alt="" />
             </div>
             <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
               <p>
@@ -89,6 +87,7 @@ export default function About() {
                 turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros
                 eu viverra donec ut volutpat donec laoreet quam urna.
               </p>
+
               {/* <p>
                 Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique
                 sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et

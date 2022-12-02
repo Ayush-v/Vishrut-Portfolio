@@ -8,20 +8,16 @@ export default function HeroSection() {
         <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
           <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-              <span className="block xl:inline">Hello,</span>{" "}
-              <span className="block text-indigo-600 xl:inline">
-                I'm Vishrut
-              </span>
+              <span className="block xl:inline">Hi,</span>{" "}
+              <span className="block text-primary xl:inline">I'm Vishrut</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+              Culinary management student.
             </p>
             <div className="mt-8 flex gap-x-4">
               <Link
                 to="#Work"
-                className="inline-block rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+                className="inline-block rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-primabg-primary hover:bg-primary/75 hover:ring-primary/hover:bg-primary/75"
               >
                 My Work
               </Link>

@@ -33,12 +33,12 @@ export default function MyWork() {
     <div className="bg-white" id="Work">
       <div className="py-16 sm:py-24 xl:max-w-7xl xl:mx-auto xl:px-8">
         <div className="px-4 sm:px-6 sm:flex sm:items-center sm:justify-between lg:px-8 xl:px-0">
-          <h2 className="text-2xl font-extrabold tracking-tight text-gray-900">
+          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
             My Work
           </h2>
           <Link
             to="allWork"
-            className="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block"
+            className="hidden text-sm font-semibold text-primary hover:text-primary sm:block"
           >
             Browse all my work<span aria-hidden="true"> &rarr;</span>
           </Link>
@@ -77,7 +77,7 @@ export default function MyWork() {
         <div className="mt-6 px-4 sm:hidden">
           <Link
             to="allWork"
-            className="block text-sm font-semibold text-indigo-600 hover:text-indigo-500"
+            className="block text-sm font-semibold text-primary hover:text-primary"
           >
             Browse all my work<span aria-hidden="true"> &rarr;</span>
           </Link>
