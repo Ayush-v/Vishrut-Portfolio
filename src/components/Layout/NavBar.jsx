@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import clsx from "clsx";
 
 export default function NavBar() {
   return (
@@ -12,11 +13,30 @@ export default function NavBar() {
               </Link>
             </div>
           </div>
-          {/* <div className="flex items-center gap-5">
-            <button>hi</button>
-            <button>hi</button>
-            <button>hi</button>
-          </div> */}
+          <div className="flex items-center gap-5 text-xl">
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                clsx("", {
+                  "underline text-primary": isActive,
+                  "no-underline": !isActive,
+                })
+              }
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to="/allWork"
+              className={({ isActive }) =>
+                clsx("", {
+                  "underline text-primary": isActive,
+                  "no-underline": !isActive,
+                })
+              }
+            >
+              All Work
+            </NavLink>
+          </div>
         </div>
       </div>
     </nav>
