@@ -1,5 +1,5 @@
 import { CameraIcon } from "@heroicons/react/24/solid";
-import AboutImage from "../../assets/about.JPG";
+import AboutImage from "../../assets/about.jpg";
 import Certificate from "../../assets/certificate.jpg";
 
 export default function About() {

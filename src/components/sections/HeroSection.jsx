@@ -1,4 +1,4 @@
-import HeroImage from "../../assets/heroimage.JPG";
+import HeroImage from "../../assets/heroimage.jpg";
 import { Link as LinkS } from "react-scroll";
 
 export default function HeroSection() {

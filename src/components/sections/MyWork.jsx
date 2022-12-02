@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import food1 from "../../assets/food/food1.jpg";
-import food2 from "../../assets/food/food6.jpg";
-import food3 from "../../assets/food/food7.jpg";
-import food4 from "../../assets/food/food4.jpg";
-import food5 from "../../assets/food/food5.jpg";
+import food1 from "../../assets/food/food18.jpg";
+import food2 from "../../assets/food/food2.jpg";
+import food3 from "../../assets/food/food11.jpg";
+import food4 from "../../assets/food/food6.jpg";
+import food5 from "../../assets/food/food15.jpg";
 
 const categories = [
   {
@@ -11,19 +11,19 @@ const categories = [
     imageSrc: food1,
   },
   {
-    name: "Dish 2",
+    name: "Shrimp Cocktail Café",
     imageSrc: food2,
   },
   {
-    name: "Dish 3",
+    name: "Bistro 67 and Audra Richardson",
     imageSrc: food3,
   },
   {
-    name: "Dish 4",
+    name: "Duck confit with romensco and carrot puree",
     imageSrc: food4,
   },
   {
-    name: "Shrimp Cocktail Cafe",
+    name: "Charcuterie board",
     imageSrc: food5,
   },
 ];
@@ -47,7 +47,7 @@ export default function MyWork() {
         <div className="mt-4 flow-root">
           <div className="-my-2">
             <div className="box-content py-3 relative h-80 xl:h-[325px] overflow-x-auto">
-              <div className="absolute min-w-screen-xl px-4 flex space-x-8 sm:px-6 lg:px-8 xl:relative xl:px-0 xl:space-x-0 xl:grid xl:grid-cols-5 xl:gap-x-[450px]">
+              <div className="absolute min-w-screen-xl px-4 flex space-x-8 sm:px-6 lg:px-8 xl:relative xl:px-0 xl:space-x-0 xl:grid xl:grid-cols-5 xl:gap-x-[425px]">
                 {categories.map((category) => (
                   <div
                     key={category.name}
