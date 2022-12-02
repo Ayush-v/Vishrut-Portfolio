@@ -1,27 +1,30 @@
 import { Link } from "react-router-dom";
-// import food1 from "../../assets/food/food1.jpg";
-// import food2 from "../../assets/food/food6.jpg";
+import food1 from "../../assets/food/food1.jpg";
+import food2 from "../../assets/food/food6.jpg";
+import food3 from "../../assets/food/food7.jpg";
+import food4 from "../../assets/food/food4.jpg";
+import food5 from "../../assets/food/food5.jpg";
 
 const categories = [
   {
     name: "Bistro 67 and Audra Richardson",
-    // imageSrc: food1,
+    imageSrc: food1,
   },
   {
     name: "Dish 2",
-    // imageSrc: food2,
+    imageSrc: food2,
   },
   {
     name: "Dish 3",
-    imageSrc: "/src/assets/food/food3.JPG",
+    imageSrc: food3,
   },
   {
     name: "Dish 4",
-    imageSrc: "/src/assets/food/food4.JPG",
+    imageSrc: food4,
   },
   {
     name: "Shrimp Cocktail Cafe",
-    imageSrc: "/src/assets/food/food5.JPG",
+    imageSrc: food5,
   },
 ];
 
