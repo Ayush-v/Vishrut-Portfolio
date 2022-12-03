@@ -74,9 +74,9 @@ export default function About() {
           <div className="mt-8 lg:mt-0">
             <div className="text-base max-w-prose mx-auto lg:max-w-none">
               <p className="text-lg text-gray-500">
-                Sagittis scelerisque nulla cursus in enim consectetur quam.
-                Dictum urna sed consectetur neque tristique pellentesque.
-                Blandit amet, sed aenean erat arcu morbi.
+                Culinary Management Student at Durham college Whitby campus.
+                Love to cook you your next meal. came from all the way from
+                India to Pursue my dream carrier.
               </p>
               <span className="text-primary">Work Experience</span>
               <div className="text-sm">

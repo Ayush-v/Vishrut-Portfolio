@@ -15,7 +15,10 @@ export default function HeroSection() {
             </h1>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
               {/* Culinary management student. */}A self motivated culinary
-              student looking forward for an amazing culinary work experience
+              management student. Looking forward to make you never forget your
+              next dish.
+              {/* Looking forward to make you taste your next
+              dish. */}
             </p>
             <div className="mt-8 flex gap-x-4">
               <LinkS
