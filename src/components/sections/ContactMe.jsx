@@ -10,11 +10,11 @@ const ContactMe = () => {
           </h1>
           <div className="flex items-center gap-2 mt-6 hover:underline cursor-pointer">
             <PhoneIcon className="w-4 h-4 text-primary" />
-            <span>+1 647.864-9720</span>
+            <span>+1 647-864-9720</span>
           </div>
           <div className="flex items-center gap-2 mt-4 hover:underline cursor-pointer">
             <EnvelopeIcon className="w-4 h-4 text-primary" />
-            <span>vishrutvashishtool@gmail.com</span>
+            <span>vishrutvashisht001gmail.com</span>
           </div>
         </div>
       </div>

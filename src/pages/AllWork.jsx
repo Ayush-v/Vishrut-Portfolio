@@ -22,7 +22,7 @@ import Image21 from "../assets/food/food21.jpg";
 
 const files = [
   {
-    title: "IMG_4985.HEIC",
+    title: "gluten free brownie with candy orange",
     size: "3.9 MB",
     source: Image1,
   },
@@ -32,7 +32,7 @@ const files = [
     source: Image2,
   },
   {
-    title: "IMG_4985.HEIC",
+    title: "Durham college Whitby campus",
     size: "3.9 MB",
     source: Image3,
   },
@@ -63,7 +63,7 @@ const files = [
   },
   {
     title: "Flank steak",
-    size: "3.9 MB",
+    size: "bistro 67 and audra Richardson",
     source: Image9,
   },
   {
@@ -82,7 +82,7 @@ const files = [
     source: Image12,
   },
   {
-    title: "IMG_4985.HEIC",
+    title: "chocolate bread pudding h",
     size: "3.9 MB",
     source: Image13,
   },
@@ -97,7 +97,7 @@ const files = [
     source: Image15,
   },
   {
-    title: "Duck confit with romensco and carrot puree",
+    title: "Smoked Cranberry Glaze",
     size: "3.9 MB",
     source: Image16,
   },
@@ -107,7 +107,7 @@ const files = [
     source: Image17,
   },
   {
-    title: "IMG_4985.HEIC",
+    title: "Durham college Whitby campus",
     size: "3.9 MB",
     source: Image18,
   },
@@ -117,8 +117,7 @@ const files = [
     source: Image19,
   },
   {
-    title:
-      "Chives mash potatoes with wilted spinach, seared scallops and sea bream",
+    title: "sea bream with mash potatoes",
     size: "3.9 MB",
     source: Image20,
   },
