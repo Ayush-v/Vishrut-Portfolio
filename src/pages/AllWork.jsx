@@ -22,8 +22,8 @@ import Image21 from "../assets/food/food21.jpg";
 
 const files = [
   {
-    title: "gluten free brownie with candy orange",
-    size: "3.9 MB",
+    title: "Gluten free brownie with candy orange",
+    size: "Durham college Whitby campus",
     source: Image1,
   },
   {
@@ -32,98 +32,98 @@ const files = [
     source: Image2,
   },
   {
-    title: "Durham college Whitby campus",
-    size: "3.9 MB",
+    title: "Harvest Dinner",
+    size: "Durham college Whitby campus",
     source: Image3,
   },
   {
     title: "Fish en papillote",
-    size: "3.9 MB",
+    size: "Durham college Whitby campus",
     source: Image4,
   },
   {
     title: "Lemon meringue",
-    size: "bistro 67 and audra Richardson",
+    size: "Bistro 67 and audra Richardson",
     source: Image5,
   },
   {
     title: "Duck confit with romensco and carrot puree",
-    size: "3.9 MB",
+    size: "Durham college Whitby campus",
     source: Image6,
   },
   {
     title: "Italian buttercream cake",
-    size: "3.9 MB",
+    size: "Durham college Whitby campus",
     source: Image7,
   },
   {
     title: "Coconut Panna Cotta",
-    size: "bistro 67 and audra Richardson",
+    size: "Bistro 67 and audra Richardson",
     source: Image8,
   },
   {
     title: "Flank steak",
-    size: "bistro 67 and audra Richardson",
+    size: "Bistro 67 and audra Richardson",
     source: Image9,
   },
   {
     title: "Chocolate bread pudding with cherry granita",
-    size: "3.9 MB",
+    size: "Durham college Whitby campus",
     source: Image10,
   },
   {
     title: "Carrot ice cream with granola nits",
-    size: "bistro 67 and audra Richardson",
+    size: "Bistro 67 and audra Richardson",
     source: Image11,
   },
   {
     title: "Salmon steak with asparagus",
-    size: "bistro 67 and audra Richardson",
+    size: "Bistro 67 and audra Richardson",
     source: Image12,
   },
   {
     title: "chocolate bread pudding h",
-    size: "3.9 MB",
+    size: "Durham college Whitby campus",
     source: Image13,
   },
   {
     title: "Gluten free brownie with candied orange",
-    size: "3.9 MB",
+    size: "Durham college Whitby campus",
     source: Image14,
   },
   {
     title: "Charcuterie board",
-    size: "bistro 67 and audra Richardson",
+    size: "Bistro 67 and audra Richardson",
     source: Image15,
   },
   {
     title: "Smoked Cranberry Glaze",
-    size: "3.9 MB",
+    size: "Durham college Whitby campus",
     source: Image16,
   },
   {
     title: "Chicken supreme with asparagus and pee puree",
-    size: "bistro 67 and audra Richardson",
+    size: "Bistro 67 and audra Richardson",
     source: Image17,
   },
   {
     title: "Durham college Whitby campus",
-    size: "3.9 MB",
+    size: "Durham college Whitby campus",
     source: Image18,
   },
   {
     title: "Assorted dessert platter",
-    size: "3.9 MB",
+    size: "Durham college Whitby campus",
     source: Image19,
   },
   {
-    title: "sea bream with mash potatoes",
-    size: "3.9 MB",
+    title: "Sea bream with mash potatoes",
+    size: "Durham college Whitby campus",
     source: Image20,
   },
   {
     title: "Fondant potatoes",
-    size: "3.9 MB",
+    size: "Durham college Whitby campus",
     source: Image21,
   },
 ];
@@ -132,7 +132,10 @@ const AllWork = () => {
   return (
     <div className="px-4 sm:px-6 lg:px-8 my-6">
       <div className="lg:relative m-4 max-w-7xl mx-auto">
-        <h1 className="text-5xl my-8 text-primary underline font-medium">
+        <span className="block text-sm font-semibold text-primary hover:text-primary">
+          <span aria-hidden="true"> &larr;</span>Home
+        </span>
+        <h1 className="text-5xl mb-8 mt-5 text-primary underline font-medium">
           All My Recent Work
         </h1>
         <ul className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
