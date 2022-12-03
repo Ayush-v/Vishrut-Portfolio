@@ -88,6 +88,18 @@ export default function About() {
                   THE BISTRO 67 KINGS CORNER
                 </span>
               </div>
+              <div className="text-sm">
+                <span className="underline font-semibold">Kings Corner</span>
+                <br />
+                <span className="text-gray-500">
+                  Bistro 67 ( voulanteer experience)
+                </span>
+              </div>
+              <div className="text-sm">
+                <span className="underline font-semibold">Farm Boy</span>
+                <br />
+                <span className="text-gray-500">Shrimp cocktail cafe</span>
+              </div>
               <p className="text-primary mt-5">my recent achivement</p>
               <img src={Certificate} alt="" />
             </div>
