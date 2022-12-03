@@ -78,8 +78,21 @@ export default function About() {
                 Love to cook you your next meal. Came all the way from India to
                 Pursue my dream carrier.
               </p>
-              <span className="text-primary">Work Experience</span>
-              <div className="text-sm">
+              <h3 className="text-primary">Work Experience</h3>
+              <span className="underline font-semibold">
+                Bistro'67 ( Volunteer hours)
+              </span>
+              <br />
+              <span className="underline font-semibold">Kings Corner</span>
+              <br />
+              <span className="underline font-semibold">RED LOBSTER</span>
+              <br />
+              <span className="underline font-semibold">Farm Boy</span>
+              <br />
+              <span className="underline font-semibold">
+                Shrimp Cocktail Café
+              </span>
+              {/* <div className="text-sm">
                 <span className="underline font-semibold">
                   RED LOBSTER VOULENTEER
                 </span>
@@ -99,7 +112,7 @@ export default function About() {
                 <span className="underline font-semibold">Farm Boy</span>
                 <br />
                 <span className="text-gray-500">Shrimp cocktail cafe</span>
-              </div>
+              </div> */}
               <p className="text-primary mt-5">my recent achivement</p>
               <img src={Certificate} alt="" />
             </div>
