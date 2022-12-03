@@ -133,6 +133,9 @@ const AllWork = () => {
   return (
     <div className="px-4 sm:px-6 lg:px-8 my-6">
       <div className="lg:relative m-4 max-w-7xl mx-auto">
+        <h1 className="text-5xl my-8 text-primary underline font-medium">
+          All My Recent Work
+        </h1>
         <ul className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
           {files.map((file) => (
             <div key={file.source}>
