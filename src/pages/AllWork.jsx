@@ -19,6 +19,7 @@ import Image18 from "../assets/food/food18.jpg";
 import Image19 from "../assets/food/food19.JPG";
 import Image20 from "../assets/food/food20.JPG";
 import Image21 from "../assets/food/food21.jpg";
+import { Link } from "react-router-dom";
 
 const files = [
   {
@@ -132,9 +133,12 @@ const AllWork = () => {
   return (
     <div className="px-4 sm:px-6 lg:px-8 my-6">
       <div className="lg:relative m-4 max-w-7xl mx-auto">
-        <span className="block text-sm font-semibold text-primary hover:text-primary">
+        <Link
+          to="/"
+          className="block text-sm font-semibold text-primary hover:text-primary"
+        >
           <span aria-hidden="true"> &larr;</span>Home
-        </span>
+        </Link>
         <h1 className="text-5xl mb-8 mt-5 text-primary underline font-medium">
           All My Recent Work
         </h1>
