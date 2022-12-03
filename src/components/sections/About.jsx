@@ -75,8 +75,8 @@ export default function About() {
             <div className="text-base max-w-prose mx-auto lg:max-w-none">
               <p className="text-lg text-gray-500">
                 Culinary Management Student at Durham college Whitby campus.
-                Love to cook you your next meal. came from all the way from
-                India to Pursue my dream carrier.
+                Love to cook you your next meal. Came all the way from India to
+                Pursue my dream carrier.
               </p>
               <span className="text-primary">Work Experience</span>
               <div className="text-sm">
