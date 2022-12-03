@@ -27,8 +27,8 @@ const files = [
     source: Image1,
   },
   {
-    title: "IMG_4985.HEIC",
-    size: "3.9 MB",
+    title: "Charcuterie board and mussels",
+    size: "shimp cocktail cafe",
     source: Image2,
   },
   {
@@ -37,48 +37,48 @@ const files = [
     source: Image3,
   },
   {
-    title: "IMG_4985.HEIC",
+    title: "Fish en papillote",
     size: "3.9 MB",
     source: Image4,
   },
   {
-    title: "IMG_4985.HEIC",
-    size: "3.9 MB",
+    title: "Lemon meringue",
+    size: "bistro 67 and audra Richardson",
     source: Image5,
   },
   {
-    title: "IMG_4985.HEIC",
+    title: "Duck confit with romensco and carrot puree",
     size: "3.9 MB",
     source: Image6,
   },
   {
-    title: "IMG_4985.HEIC",
+    title: "Italian buttercream cake",
     size: "3.9 MB",
     source: Image7,
   },
   {
-    title: "IMG_4985.HEIC",
-    size: "3.9 MB",
+    title: "Coconut Panna Cotta",
+    size: "bistro 67 and audra Richardson",
     source: Image8,
   },
   {
-    title: "IMG_4985.HEIC",
+    title: "Flank steak",
     size: "3.9 MB",
     source: Image9,
   },
   {
-    title: "IMG_4985.HEIC",
+    title: "Chocolate bread pudding with cherry granita",
     size: "3.9 MB",
     source: Image10,
   },
   {
-    title: "IMG_4985.HEIC",
-    size: "3.9 MB",
+    title: "Carrot ice cream with granola nits",
+    size: "bistro 67 and audra Richardson",
     source: Image11,
   },
   {
-    title: "IMG_4985.HEIC",
-    size: "3.9 MB",
+    title: "Salmon steak with asparagus",
+    size: "bistro 67 and audra Richardson",
     source: Image12,
   },
   {
@@ -87,23 +87,23 @@ const files = [
     source: Image13,
   },
   {
-    title: "IMG_4985.HEIC",
+    title: "Gluten free brownie with candied orange",
     size: "3.9 MB",
     source: Image14,
   },
   {
-    title: "IMG_4985.HEIC",
-    size: "3.9 MB",
+    title: "Charcuterie board",
+    size: "bistro 67 and audra Richardson",
     source: Image15,
   },
   {
-    title: "IMG_4985.HEIC",
+    title: "Duck confit with romensco and carrot puree",
     size: "3.9 MB",
     source: Image16,
   },
   {
-    title: "IMG_4985.HEIC",
-    size: "3.9 MB",
+    title: "Chicken supreme with asparagus and pee puree",
+    size: "bistro 67 and audra Richardson",
     source: Image17,
   },
   {
@@ -112,17 +112,18 @@ const files = [
     source: Image18,
   },
   {
-    title: "IMG_4985.HEIC",
+    title: "Assorted dessert platter",
     size: "3.9 MB",
     source: Image19,
   },
   {
-    title: "IMG_4985.HEIC",
+    title:
+      "Chives mash potatoes with wilted spinach, seared scallops and sea bream",
     size: "3.9 MB",
     source: Image20,
   },
   {
-    title: "IMG_4985.HEIC",
+    title: "Fondant potatoes",
     size: "3.9 MB",
     source: Image21,
   },
@@ -134,19 +135,13 @@ const AllWork = () => {
       <div className="lg:relative m-4 max-w-7xl mx-auto">
         <ul className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
           {files.map((file) => (
-            <li key={file.source} className="relative">
-              <div className="group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500 overflow-hidden">
+            <div key={file.source}>
+              <div className="w-full">
                 <img
                   src={file.source}
                   alt=""
-                  className="object-cover pointer-events-none group-hover:opacity-75"
+                  className="rounded-2xl h-48 w-96 object-cover"
                 />
-                <button
-                  type="button"
-                  className="absolute inset-0 focus:outline-none"
-                >
-                  <span className="sr-only">View details for {file.title}</span>
-                </button>
               </div>
               <p className="mt-2 block text-sm font-medium text-gray-900 truncate pointer-events-none">
                 {file.title}
@@ -154,7 +149,7 @@ const AllWork = () => {
               <p className="block text-sm font-medium text-gray-500 pointer-events-none">
                 {file.size}
               </p>
-            </li>
+            </div>
           ))}
         </ul>
       </div>
